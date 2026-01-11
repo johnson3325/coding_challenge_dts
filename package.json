@@ -1,0 +1,25 @@
+{
+  "name": "coding_challenge_dts",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "allure:generate": "allure generate allure-results --clean",
+    "allure:open": "allure open allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.6",
+    "allure-playwright": "^3.4.4",
+    "dotenv": "^17.2.3",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.36.0"
+  }
+}
